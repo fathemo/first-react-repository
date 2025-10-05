@@ -1,21 +1,21 @@
-import Navbar from './components/Navbar';
-import Theme_setting_wraper from './components/Theme_setting_wraper';
-import Right_sidebar from './components/Right_sidebar';
-import Sidebar_offcanvas from './components/Sidebar_offcanvas';
-import Footer from './components/Footer';
-import Welcoe_section from './components/Welcome_section';
-import Weatheter_info from './components/Weather_info';
-import Booking_card from './components/Booking_card';
-import Base_card from './components/Base_card';
-import Slider from './components/Slider';
-import Base_frame from './components/Base_fram';
-import To_do_list from './components/To_do_list';
-import Charts from './components/Charts';
-import Primary_card from './components/primary_card';
-import Notifications from './components/Notifications';
-import Advanced_table from './components/Advanced_table';
-import Top_product_table from './components/Top_product_table';
-import Project_table from './components/Project_table';
+import Navbar from './Navbar';
+import Theme_setting_wraper from './Theme_setting_wraper';
+import Right_sidebar from './Right_sidebar';
+import Sidebar_offcanvas from './Sidebar_offcanvas';
+import Footer from './Footer';
+import Welcome_section from './Welcome_section';
+import Weatheter_info from './Weather_info';
+import Booking_card from './Booking_card';
+import Base_card from './Base_card';
+import Slider from './Slider';
+import Base_frame from './Base_fram';
+import To_do_list from './To_do_list';
+import Charts from './Charts';
+import Primary_card from './primary_card';
+import Notifications from './Notifications';
+import Advanced_table from './Advanced_table';
+import Top_product_table from './Top_product_table';
+import Project_table from './Project_table';
 export default function Home() {
     return <>
         <div className='container-scroller'>
@@ -33,7 +33,7 @@ export default function Home() {
             </nav>
             <div className='main-panel'>
                 <div className='content-wrapper'>
-                    <Welcoe_section />
+                    <Welcome_section />
                     <div className='row'>
                         <Weatheter_info />
                         <div className='col-md-6 grid-margin transparent'>
