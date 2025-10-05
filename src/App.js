@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Home />
       <Routes>
-        <Route path='/' element={<Home />}></Route>
+        <Route path='index.html' element={<Home />}></Route>
         <Route path='pages/ui-features/buttons.html' element={<Buttons />}></Route>
         <Route path='pages/ui-features/dropdowns.html' element={<Dropdown />}></Route>
       </Routes>
